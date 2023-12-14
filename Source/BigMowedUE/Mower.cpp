@@ -16,10 +16,10 @@ AMower::AMower()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	
 	// Create a CameraComponent	
-	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
-	FirstPersonCameraComponent->SetupAttachment(Root);
-	FirstPersonCameraComponent->SetRelativeLocation(FVector(0.f, 0.f, 60.f)); // Position the camera
-	FirstPersonCameraComponent->bUsePawnControlRotation = true;
+	// FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
+	// FirstPersonCameraComponent->SetupAttachment(Root);
+	// FirstPersonCameraComponent->SetRelativeLocation(FVector(0.f, 0.f, 60.f)); // Position the camera
+	// FirstPersonCameraComponent->bUsePawnControlRotation = true;
 }
 
 // Called when the game starts or when spawned
